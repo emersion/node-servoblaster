@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/emersion/node-servoblaster/issues"
   },
-  "homepage": "https://github.com/emersion/node-servoblaster"
+  "homepage": "https://github.com/emersion/node-servoblaster",
+  "dependencies": {}
 }
