@@ -1,0 +1,26 @@
+{
+  "name": "servoblaster",
+  "version": "0.1.0",
+  "description": "ServoBlaster library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emersion/node-servoblaster.git"
+  },
+  "keywords": [
+    "servoblaster",
+    "raspberry",
+    "pi",
+    "servo",
+    "pwm"
+  ],
+  "author": "emersion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersion/node-servoblaster/issues"
+  },
+  "homepage": "https://github.com/emersion/node-servoblaster"
+}
