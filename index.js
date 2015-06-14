@@ -36,6 +36,14 @@ servoblaster.createWriteStream = function (pin) {
 	var stream = fs.createWriteStream(SERVOBLASTER_DEV);
 	var servo = servoblaster.Transform({ pin: pin });
 	servo.pipe(stream);
+
+	stream.on('error', function (err) {
+		servo.emit('error', err);
+	});
+	stream.on('open', function () {
+		servo.emit('open');
+	});
+
 	return servo;
 };
 
